@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  covid,
   threejs,
 } from "../assets";
 
@@ -242,6 +243,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://wolzon.netlify.app/",
+  },
+  {
+    name: "Covid 19 Tracker",
+    description:
+      "Covid 19 tracker built with React, Map, React Leaf. It provides real-time information on the number of confirmed cases, deaths, and recoveries. ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Map",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: covid,
+    source_code_link: "https://covid-19-tracker-steel.vercel.app/",
   },
 ];
 
