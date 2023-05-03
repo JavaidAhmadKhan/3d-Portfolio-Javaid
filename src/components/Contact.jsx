@@ -33,10 +33,6 @@ const Contact = () => {
 
     emailjs
       .send(
-        // template_kn3h6zj
-        // service_pmu6moj
-        // user_7vLFgIaaTCvbsnjsvuYm0
-        // 9daa3f8c459a35587fb3cb8b8ed39e46
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
@@ -51,8 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          alert("Thank you,  I will get back to you as soon as possible.");
           setForm({
             name: "",
             email: "",
@@ -91,6 +86,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
+              required
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
@@ -101,6 +97,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
+              required
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -112,6 +109,7 @@ const Contact = () => {
               rows={7}
               name='message'
               value={form.message}
+              required
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
