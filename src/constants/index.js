@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   covid,
+  store,
+  admin,
   threejs,
 } from "../assets";
 
@@ -117,18 +116,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Freelance",
+    title: "ReactJs, NextJs Developer",
+    company_name: "Honeycomb",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#E6DEDD",
+    date: "June 2022 - Present",
     points: [
+      "Converting Figma Prototype into ReactJs, Nextjs",
+      "Developing Performant, Userfriendly, Secure Pwa Apps",
       "Developing new user-facing features using React.js",
       "Build interactive, responsive & performant front-end interfaces.",
       "Create a highly usable and scalable front-end design system.",
       "Actively participate in design and code reviews.",
     ],
   },
+
   {
     title: "Preact, React, Gatsby",
     company_name: "YouKnowMeBest",
@@ -143,14 +145,12 @@ const experiences = [
     ],
   },
   {
-    title: "ReactJs, NextJs Developer",
-    company_name: "Honeycomb",
+    title: "React.js Developer",
+    company_name: "Freelance",
     icon: shopify,
-    iconBg: "#E6DEDD",
-    date: "Hun 2022 - Present",
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
     points: [
-      "Converting Figma Prototype into ReactJs, Nextjs",
-      "Developing Performant, Userfriendly, Secure Pwa Apps",
       "Developing new user-facing features using React.js",
       "Build interactive, responsive & performant front-end interfaces.",
       "Create a highly usable and scalable front-end design system.",
@@ -163,20 +163,20 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Javaid proved me wrong.",
-    name: "John Mattathil",
-    designation: "Wordpress Developer",
+    name: "Ankita",
+    designation: "SEO Lead",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Javaid does.",
-    name: "Aqib Javaid",
-    designation: "FullStack Developer",
+    name: "Polina",
+    designation: "Marketing Manager",
   },
   {
     testimonial:
       "After Javaid optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Sunanta ",
-    designation: "Frontend Developer",
+    name: "Bernhard ",
+    designation: "Product Designer",
   },
 ];
 
@@ -201,6 +201,52 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://wolzon-dashboard.vercel.app/",
+  },
+  {
+    name: "Ecommerce Store",
+    description:
+      "A Full functional Ecommerce web app built with NextJs, Typecript, Tailwindcss, where a user can purchase products",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: store,
+    source_code_link: "https://eccommerce-store-olive.vercel.app/",
+  },
+  {
+    name: "Eccomerce Admin",
+    description:
+      "An admin panel built with Nextjs, Typescript, Shadcn for Ecommerce web app, where admin can add new store, add products, delete, update and track count of products",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: admin,
+    source_code_link: "https://ecccomerce-admin.vercel.app/",
   },
   {
     name: "Absolute Informations",

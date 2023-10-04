@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import covid from "./covid.png";
+import store from "./store.png";
+import admin from "./admin.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   covid,
+  store,
+  admin,
 };
