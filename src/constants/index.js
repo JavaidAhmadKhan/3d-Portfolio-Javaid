@@ -23,6 +23,8 @@ import {
   store,
   admin,
   threejs,
+  booking,
+  lms,
 } from "../assets";
 
 export const navLinks = [
@@ -182,25 +184,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Wolzon Dashboard",
+    name: "Booking Application",
     description:
-      "A multipurpose Dasboard visually display important metrics, providing modern enterprise application owners and administrators with sharable insights that can be helpful for monitoring performance, spotting trends, and identifying issues.",
+      "Single page Booking application, where a user can book a hotel, hut or any apartment",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebae",
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "MaterialUI",
+        name: "Taiwlindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://wolzon-dashboard.vercel.app/",
+    image: booking,
+    source_code_link: "https://booking-app-mern-pearl.vercel.app/",
+  },
+  {
+    name: "Learning Managent System",
+    description:
+      "An optimized, mobile friendly, fully fleged web application, where a student can watch videos track their progress, for an admin, like a Teacher can add a course delete it.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "green-text-gradient",
+      },
+    ],
+    image: lms,
+    source_code_link: "https://lms-learning-five.vercel.app/",
   },
   {
     name: "Ecommerce Store",

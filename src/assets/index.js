@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import covid from "./covid.png";
 import store from "./store.png";
 import admin from "./admin.png";
+import booking from "./booking.png";
+import lms from "./lms.png";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   covid,
   store,
   admin,
+  booking,
+  lms,
 };
